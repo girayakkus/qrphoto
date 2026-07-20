@@ -37,7 +37,7 @@ export async function GET(request) {
       format: r.format,
       bytes: r.bytes,
       created_at: r.created_at,
-      uploader: r.context?.custom?.uploader || '',
+      uploader: r.context?.custom?.uploader || r.context?.uploader || '',
     }))
 
     return Response.json({ photos })

@@ -91,19 +91,21 @@ body {
 }
 .welcome-line {
   font-family: var(--serif);
-  font-style: italic;
-  font-size: 15px;
-  color: var(--rose-deep);
-  letter-spacing: 0.03em;
-  margin: 0 0 6px;
+  font-weight: 600;
+  font-size: clamp(26px, 5.5vw, 38px);
+  color: var(--plum);
+  letter-spacing: 0.01em;
+  margin: 0 0 8px;
+  line-height: 1.2;
 }
 .hero h1 {
   font-family: var(--serif);
-  font-weight: 600;
-  font-size: clamp(28px, 5vw, 40px);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
   margin: 0 0 10px;
-  color: var(--plum);
-  line-height: 1.15;
+  color: var(--rose-deep);
+  line-height: 1.4;
 }
 .hero p {
   font-size: 15px;
